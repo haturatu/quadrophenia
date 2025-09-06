@@ -7,14 +7,13 @@
 
 
 # Usage
-標準ライブラリで動くようにはしたはずなので、Rubyが動く環境であれば動くはずです。
-`.ruby-version`は気が向いたら追加します。
+## Install & Run
+依存関係のインストール
 ```bash
-$ ruby -v
-ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux-gnu]
+gem install webrick
+gem install erb
 ```
 
-## Install & Run
 ```bash
 git clone https://github.com/haturatu/quadrophenia.git
 cd quadrophenia
